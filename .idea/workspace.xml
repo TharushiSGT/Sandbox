@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5396ea32-3ca5-4cd5-a955-e0b16bdd6015" name="Changes" comment="Prac 1 temperature conversation">
+    <list default="true" id="5396ea32-3ca5-4cd5-a955-e0b16bdd6015" name="Changes" comment="score recreation from Prac.01">
+      <change afterPath="$PROJECT_DIR$/Sandbox/REFLECTION.md.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +36,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.my_name.executor": "Run",
     "Python.password_stars.executor": "Run",
+    "Python.score.executor": "Run",
+    "Python.score_menu.executor": "Run",
     "Python.temperature.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -100,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758630380090</updated>
-      <workItem from="1758630397355" duration="2466000" />
+      <workItem from="1758630397355" duration="3250000" />
     </task>
     <task id="LOCAL-00001" summary="Add password check program">
       <option name="closed" value="true" />
@@ -150,7 +153,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758632710442</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Score + Menu combination from Prac 01">
+      <option name="closed" value="true" />
+      <created>1758633078410</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758633078410</updated>
+    </task>
+    <task id="LOCAL-00008" summary="score recreation from Prac.01">
+      <option name="closed" value="true" />
+      <created>1758633363720</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758633363720</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,9 +178,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add password check program" />
     <MESSAGE value="Prac 1 temperature conversation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prac 1 temperature conversation" />
+    <MESSAGE value="Score + Menu combination from Prac 01" />
+    <MESSAGE value="score recreation from Prac.01" />
+    <option name="LAST_COMMIT_MESSAGE" value="score recreation from Prac.01" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonProject1$score_menu.coverage" NAME="score_menu Coverage Results" MODIFIED="1758632909410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sandbox" />
+    <SUITE FILE_PATH="coverage/PythonProject1$score.coverage" NAME="score Coverage Results" MODIFIED="1758633292111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sandbox" />
     <SUITE FILE_PATH="coverage/PythonProject1$temperature.coverage" NAME="temperature Coverage Results" MODIFIED="1758632689270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sandbox" />
     <SUITE FILE_PATH="coverage/PythonProject1$my_name.coverage" NAME="my_name Coverage Results" MODIFIED="1758630470788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sandbox" />
     <SUITE FILE_PATH="coverage/PythonProject1$password_stars.coverage" NAME="password_stars Coverage Results" MODIFIED="1758631765615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sandbox" />
