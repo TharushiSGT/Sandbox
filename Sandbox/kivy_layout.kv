@@ -1,0 +1,29 @@
+BoxLayout:
+    orientation: "vertical"
+    padding: 10
+    spacing: 10
+
+    Label:
+        text: "Hello Kivy!"
+        font_size: 32
+        size_hint_y: 0.3
+
+    Button:
+        text: "Press Me"
+        font_size: 24
+        size_hint_y: 0.3
+        on_press: app.press_button()
+
+    TextInput:
+        id: input_name
+        hint_text: "Enter your name"
+        multiline: False
+        font_size: 20
+        size_hint_y: 0.3
+        on_text_validate: app.handle_enter(input_name.text)
+
+    # 🟩 Extra Label (10% of vertical space)
+    Label:
+        text: "This is the extra label (10% height)"
+        font_size: 18
+        size_hint_y: 0.1
